@@ -1,0 +1,38 @@
+.main{
+    display: flex;
+    .leaf{
+        width: 200px;
+        height: 200px;
+        border-radius: 0% 100%;
+       // background-color: aqua;
+        background-image: linear-gradient(to right, rgb(182, 244, 146), rgb(51, 139, 147));
+    }
+    .leafT{
+        width: 200px;
+        height: 200px;
+        border-radius: 100% 0%;
+       // background-color: aqua;
+        background-image: linear-gradient(to right, rgb(182, 244, 146), rgb(199, 58, 145));
+    }
+}
+.mainT{
+    display: flex;
+    flex-direction: row-reverse;
+    .leaf{
+        width: 200px;
+        height: 200px;
+        border-radius: 0% 100%;
+       // background-color: aqua;
+        background-image: linear-gradient(to right, rgb(182, 244, 146), rgb(51, 139, 147));
+    }
+    .leafT{
+        width: 200px;
+        height: 200px;
+        border-radius: 100% 0%;
+       // background-color: aqua;
+        background-image: linear-gradient(to right, rgb(182, 244, 146), rgb(199, 58, 145));
+    }
+}
+hr{
+    border: solid 2px red;
+}

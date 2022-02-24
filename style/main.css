@@ -1,0 +1,52 @@
+.main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main .leaf {
+  width: 200px;
+  height: 200px;
+  border-radius: 0% 100%;
+  background-image: -webkit-gradient(linear, left top, right top, from(#b6f492), to(#338b93));
+  background-image: linear-gradient(to right, #b6f492, #338b93);
+}
+
+.main .leafT {
+  width: 200px;
+  height: 200px;
+  border-radius: 100% 0%;
+  background-image: -webkit-gradient(linear, left top, right top, from(#b6f492), to(#c73a91));
+  background-image: linear-gradient(to right, #b6f492, #c73a91);
+}
+
+.mainT {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+
+.mainT .leaf {
+  width: 200px;
+  height: 200px;
+  border-radius: 0% 100%;
+  background-image: -webkit-gradient(linear, left top, right top, from(#b6f492), to(#338b93));
+  background-image: linear-gradient(to right, #b6f492, #338b93);
+}
+
+.mainT .leafT {
+  width: 200px;
+  height: 200px;
+  border-radius: 100% 0%;
+  background-image: -webkit-gradient(linear, left top, right top, from(#b6f492), to(#c73a91));
+  background-image: linear-gradient(to right, #b6f492, #c73a91);
+}
+
+hr {
+  border: solid 2px red;
+}
+/*# sourceMappingURL=main.css.map */
